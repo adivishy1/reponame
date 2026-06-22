@@ -1,0 +1,21 @@
+inputSet:
+  name: adsf
+  identifier: adsf
+  orgIdentifier: default
+  projectIdentifier: GitX_Remote
+  pipeline:
+    identifier: test_pipeline2_in_reponame
+    stages:
+      - stage:
+          identifier: fdas
+          type: Approval
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: fds
+                    type: HarnessApproval
+                    spec:
+                      approvers:
+                        userGroups:
+                          - account._account_all_users
